@@ -48,3 +48,20 @@ nav a:hover {
 nav img {
     display: none;
 }
+
+@media screen and (max-width: 1024px) {
+
+    header {
+        justify-content: space-between;
+    }
+
+    nav img {
+        width: 52px;
+        height: 52px;
+        display: block;
+    }
+
+    nav a {
+        display: none;
+    }
+}
